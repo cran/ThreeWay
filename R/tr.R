@@ -8,4 +8,3 @@ if (p==q){
 }
 return(t)
 }
-

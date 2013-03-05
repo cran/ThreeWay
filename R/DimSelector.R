@@ -196,4 +196,3 @@ if (model==4){
 	cat(suggestion,fill=TRUE)
 }
 }
-

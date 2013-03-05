@@ -21,9 +21,9 @@ A list including the following components:
 \item{T}{Rotation matrix}
 \item{f}{Orthomax function value}
 } 
-\note{The function to be maximized is \eqn{f=sum((A1^2)-1/m1*gam1*sum((sum(A1^2))^2))^2+sum((A2^2)-1/m2*gam2*sum((sum(A2^2))^2))^2}}
+\note{The function to be maximized is \eqn{f=sum((A1^2)-1/m1*gam1*sum((sum(A1^2))^2))^2+sum((A2^2)-1/m2*gam2*sum((sum(A2^2))^2))^2}.}
 \references{R. Jennrich (1970). Orthogonal rotation algorithms. \emph{Psychometrika 35:229--235}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{varim}}}
 \examples{
 X <- matrix(rnorm(8*3),ncol=3)

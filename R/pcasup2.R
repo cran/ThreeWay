@@ -58,4 +58,3 @@ if (model!=1){
 }
 return(out)
 }
-

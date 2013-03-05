@@ -14,4 +14,3 @@ while (k<=p){
 }
 return(X)
 }
-

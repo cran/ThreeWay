@@ -22,7 +22,7 @@
  Cumulative sum of eigenvalues and fits from PCAsup applied to the reduced mode are automatically printed.
 } 
 \references{H.A.L. Kiers (1991). Hierarchical relations among three-way methods. \emph{Psychometrika 56:449--470}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{DimSelector}}, \code{\link{LineCon}}, \code{\link{pcasup1}}, \code{\link{T1}}}
 \examples{
 data(Bus)

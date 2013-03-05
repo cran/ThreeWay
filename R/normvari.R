@@ -18,4 +18,3 @@ out$T=VARIM$T
 out$f=VARIM$f
 return(out)
 }
-

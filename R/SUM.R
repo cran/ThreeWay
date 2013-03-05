@@ -62,4 +62,3 @@ out$cumsumr=cumR
 out$cumsumc=cumC
 return(out)
 }
-

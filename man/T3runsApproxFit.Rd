@@ -15,13 +15,13 @@
  \item{maxc}{Maximum dimensionality for the \code{C}-mode}
 }
 \value{
- \item{out}{Matrix with columns: number of components for the \code{A}-mode, number of components for the \code{B}-mode, number of components for the \code{C}-mode, , goodness of fit (\%), total number of components}
+ \item{out}{Matrix with columns: number of components for the \code{A}-mode, number of components for the \code{B}-mode, number of components for the \code{C}-mode, goodness of fit (\%), total number of components}
 } 
 \note{
  Cumulative sum of eigenvalues and fits from PCAsup applied to the \code{A}-, \code{B}- and \code{C}-modes are automatically printed.
 } 
 \references{H.A.L. Kiers (1991). Hierarchical relations among three-way methods. \emph{Psychometrika 56:449--470}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{DimSelector}}, \code{\link{LineCon}}, \code{\link{pcasup3}}, \code{\link{T3}}}
 \examples{
 data(Bus)

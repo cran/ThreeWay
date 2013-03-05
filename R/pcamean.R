@@ -318,4 +318,3 @@ out$C1=C1
 out$C2=C2	
 return(out)
 }
-

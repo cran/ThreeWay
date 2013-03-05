@@ -19,13 +19,15 @@
 \cr \code{R}: irregular orthographic long and short words (scores in 0-15).
 } 
 \details{
-In the literature the Bus data have been analyzed by Tucker3 (see Kroonenberg, 1983; Timmerman, 2001)
+In the literature the Bus data have been analyzed by Tucker3 (see Kroonenberg, 1983; Timmerman, 2001).
 There is consensus on normalizing the data so to eliminate artificial differences among ranges of tests.
 Different centering options and numbers of extracted components have been chosen. 
 Specifically, Kroonenberg (1983) suggests averaging over pupils and tests for each time occasions and extracting two components for every mode.
 Timmerman (2001) suggests to apply Tucker3 to the normalized data with two components for pupils and time occasions and one component for tests.
 }
-\references{P.M. Kroonenberg (1983). \emph{Three-mode Principal Component Analysis. Theory and Applications}. DSWO Press, Leiden
+\references{P.M. Kroonenberg (1983). \emph{Three-mode Principal Component Analysis. Theory and Applications}. DSWO Press, Leiden.
 \cr M.E. Timmerman (2001). \emph{Component Analysis of Multisubject Multivariate Longitudinal Data}. Ph.D. Thesis, University of Groningen.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
-\keyword{array} 
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
+\keyword{data}
+\keyword{array}
+\keyword{multivariate}

@@ -8,4 +8,3 @@ if ((is.matrix(a)) & (is.matrix(b))){
 }
 return(p)
 }
-

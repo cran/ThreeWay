@@ -30,7 +30,7 @@
 \references{H.A.L. Kiers (1991). Hierarchical relations among three-way methods. \emph{Psychometrika 56: 449--470}.
 \cr H.A.L. Kiers (2000). Towards a standardized notation and terminology in multiway analysis. \emph{Journal of Chemometrics 14:105--122}.
 \cr L.R Tucker (1966). Some mathematical notes on three-mode factor analysis. \emph{Psychometrika 31: 279--311}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{T1}}} 
 \examples{
 data(Bus)

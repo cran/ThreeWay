@@ -21,4 +21,3 @@ for (i in 2:n){
 dimnames(z)=NULL 
 return(z)
 }
-

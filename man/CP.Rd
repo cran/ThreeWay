@@ -53,7 +53,7 @@
 \references{J.D. Carroll and J.J. Chang (1970). Analysis of individual differences in multidimensional scaling via an \emph{N}-way generalization of 'Eckart-Young' decomposition. \emph{Psychometrika 35:283--319}. 
 \cr R.A. Harshman (1970). Foundations of the Parafac procedure: models and conditions for an 'explanatory' multi-mode factor analysis. \emph{UCLA Working Papers in Phonetics 16:1--84}.
 \cr P.M. Kroonenberg (2008). \emph{Applied Multiway Data Analysis}. Wiley, New Jersey.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{T3}}, \code{\link{T2}}, \code{\link{T1}}}
 \examples{
 data(TV)

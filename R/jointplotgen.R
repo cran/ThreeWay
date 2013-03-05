@@ -68,4 +68,3 @@ if (fixmode==3){
 }
 return(fit)
 }
-

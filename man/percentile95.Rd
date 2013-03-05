@@ -13,7 +13,7 @@
  \item{lo}{Vector of the 2.5\% percentiles of the values in the columns of \code{X}}
  \item{up}{Vector of the 97.5\% percentiles of the values in the columns of \code{X}}
 }
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{bootstrapCP}},\code{\link{bootstrapT3}}} 
 \examples{
 X <- matrix(rnorm(50*3),ncol=3)

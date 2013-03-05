@@ -97,4 +97,3 @@ rownames(out)=rep("T3",length=dim(out)[1])
 colnames(out)=c("P","Q","R","Fit (%) ","P+Q+R")
 return(out)
 }
-

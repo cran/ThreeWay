@@ -65,4 +65,3 @@ out$SS.bc=ssbc
 out$SS.abc=ssabc
 return(out)
 }
-

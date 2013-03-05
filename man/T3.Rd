@@ -67,7 +67,7 @@
 } 
 \references{L.R Tucker (1966). Some mathematical notes on three-mode factor analysis. \emph{Psychometrika 31:279--311}.
 \cr P.M. Kroonenberg (2008). \emph{Applied Multiway Data Analysis}. Wiley, New Jersey.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{CP}},\code{\link{T2}},\code{\link{T1}}}
 \examples{
 data(Bus)

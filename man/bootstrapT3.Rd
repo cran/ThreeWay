@@ -41,7 +41,7 @@
  \cr The starting points for every bootstrap solution are two: rational (using SVD) and solution from the observed sample.
 }
 \references{H.A.L. Kiers (2004). Bootstrap confidence intervals for three-way methods. \emph{Journal of Chemometrics 18:22--36}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{bootstrapCP}}, \code{\link{percentile95}}, \code{\link{T3}}}
 \examples{
 data(Bus)

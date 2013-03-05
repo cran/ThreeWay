@@ -187,4 +187,3 @@ out$ftiter=ftiter
 out$cputime=cputime[1]
 return(out)
 }
-

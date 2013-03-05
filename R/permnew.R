@@ -8,4 +8,3 @@ Y=matrix(0,m,n*p)
 Y=matrix(y,nrow(Y),ncol(Y))
 return(Y)
 }
-

@@ -31,7 +31,7 @@
 } 
 \references{H. Kaiser (1958). The varimax criterion for analytic rotation in factor analysis. \emph{Psychometrika 23:187--200}. 
 \cr C. Harris and H. Kaiser (1964). Some mathematical notes on three-mode factor analysis. \emph{Psychometrika 29:347--362}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \examples{
 data(TV)
 TVdata=TV[[1]]

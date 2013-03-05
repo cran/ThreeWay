@@ -29,4 +29,3 @@ rownames(out)=rep("CP",length=dim(out)[1])
 colnames(out)=c("S","S","S","Fit (%) ","S+S+S")
 return(out)
 }
-

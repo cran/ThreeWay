@@ -36,9 +36,12 @@ varimcoco(A, B, C, H, wa_rel, wb_rel, wc_rel, rot1, rot2, rot3, nanal)
  \item{f2c}{Varimax value of \code{CU}}
  \item{func}{Function values upon convergence for all the runs of the orthomax algorithm}
 } 
-\note{The simplicity values \code{f1}, \code{f2a}, \code{f2b}, \code{f2c} are based on \sQuote{natural} weigths and therefore comparable across matrices. When multiplied by the relative weights, they give the contribution to the overall simplicity value (they are \code{I^2/p}, \code{J^2/q} or \code{K^2/r}, respectively, times the sum of the variances of squared values)} 
+\note{The simplicity values \code{f1}, \code{f2a}, \code{f2b}, \code{f2c} are based on \sQuote{natural} 
+weigths and therefore comparable across matrices. When multiplied by the relative weights, 
+they give the contribution to the overall simplicity value (they are \code{I^2/p}, \code{J^2/q} or \code{K^2/r}, 
+respectively, times the sum of the variances of squared values).} 
 \references{H.A.L. Kiers (1998). Joint orthomax rotation of the core and component matrices resulting from three-mode principal components analysis. \emph{Journal of Classification  15:245--263}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{orthmax2}}, \code{\link{varim}}} 
 \examples{
 data(Bus)

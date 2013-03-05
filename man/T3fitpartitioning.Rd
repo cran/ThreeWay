@@ -33,7 +33,7 @@ T3fitpartitioning(Xprep, n, m, p, AS, BT, CU, K, renormmode, laba, labb, labc)
 \note{
 The computation of the fit contributions by combinations of modes is done in case of \sQuote{renormalization}.
 \cr In Tucker1, \code{renormmode} must be equal to 0.} 
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{T3}}, \code{\link{T2}}, \code{\link{T1}}}
 \examples{
 data(Bus)

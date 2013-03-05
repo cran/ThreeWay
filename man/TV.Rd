@@ -4,7 +4,7 @@
 \title{TV data}
 \usage{data(TV)}
 \description{
-  Three-way data about rating of 15 American television shows on 16 bipolar scales made by 30 students. 
+  Three-way data about ratings of 15 American television shows on 16 bipolar scales made by 30 students. 
 }
 \format{
 A list containing one data.frame and three character vectors.
@@ -34,7 +34,7 @@ V. De Silva \& L.-H. Lim (2008). Tensor rank and the ill-posedness of the best l
 \cr A. Stegeman (2006). Degeneracy in Candecomp/Parafac explained for \code{pxpx2} arrays of rank p+1 or higher. \emph{Psychometrika 71:483--501}.
 \cr A. Stegeman (2007). Degeneracy in Candecomp/Parafac and Indscal explained for several three-sliced arrays with a two-valued typical rank. \emph{Psychometrika 72:601--619}.
 }
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \examples{
 # to perform stability check and produce bootstrap confidence intervals 
 # it is useful to permute the modes so that the A-mode refers to students
@@ -46,5 +46,7 @@ labSTUDENT=TV[[4]]
 TVdata <- permnew(TVdata, 16, 15, 30)
 TVdata <- permnew(TVdata, 15, 30, 16)
 }
+\keyword{data}
 \keyword{array}
+\keyword{multivariate}
 

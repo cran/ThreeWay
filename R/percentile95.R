@@ -14,4 +14,3 @@ out$lo=Q025
 out$up=Q975
 return(out)
 }
-

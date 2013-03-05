@@ -19,4 +19,3 @@ r=sum(s>tol)
 Q=svd$u[,1:r]
 return(Q)
 }
-

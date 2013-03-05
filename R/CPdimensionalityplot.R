@@ -21,4 +21,3 @@ dev.new()
 PLOT2=plot(ep,A[,2],xlab="number of effective parameters",ylab="Fit (%)",pch=20)	
 text(ep,A[,2],lab,pos=1,cex=0.8)
 }
-

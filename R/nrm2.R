@@ -14,4 +14,3 @@ if (sum(d)>0){
 }
 return(N)
 }
-

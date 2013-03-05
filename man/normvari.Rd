@@ -17,7 +17,7 @@
  \item{f}{Varimax function value}
 } 
 \references{H. Kaiser (1958). The varimax criterion for analytic rotation in factor analysis. \emph{Psychometrika 23:187--200}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{varim}}}
 \examples{
 X <- matrix(rnorm(6*3),ncol=3)

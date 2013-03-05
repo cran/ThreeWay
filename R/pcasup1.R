@@ -58,4 +58,3 @@ if (model==3){
 }
 return(out)
 }
-

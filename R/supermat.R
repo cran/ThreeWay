@@ -28,4 +28,3 @@ out$Xb=sup.mat.B
 out$Xc=sup.mat.C
 return(out)
 }
-

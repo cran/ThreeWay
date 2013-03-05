@@ -10,4 +10,3 @@ if (ft>=f2){
 }
 return(ret)
 }
-

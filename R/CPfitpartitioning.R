@@ -40,4 +40,3 @@ out$fitB=fitB
 out$fitC=fitC
 return(out)
 }
-

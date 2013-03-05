@@ -14,7 +14,7 @@
  \item{A}{Vector or matrix with the elements sorted in ascending order}
  \item{a}{Vector or matrix with the ordering indices}
 }
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \examples{
 # vector
 x <- rnorm(6)

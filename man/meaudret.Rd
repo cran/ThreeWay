@@ -2,7 +2,7 @@
 \alias{meaudret}
 \title{ Meaudret data}
 \description{
- Three-way data about six sampling sites along a small French stream (the Meaudret) on which ten biological and chemical variables are collected four times
+ Three-way data about six sampling sites along a small French stream (the Meaudret) on which ten biological and chemical variables are collected four times.
 }
 \usage{data(meaudret)} 
 \format{
@@ -16,7 +16,7 @@ The ranges of the variables are very different and, therefore, normalization of 
 The data have been used by Kiers (1991) in order to show the existing relations among three-way methods.
 }
 \references{H.A.L. Kiers (1991). Hierarchical relations among three-way methods. \emph{Psychometrika 56:449--470}.}
-\author{Maria Antonietta Del Ferraro \email{mariaantonietta7@alice.it}, Henk A.L. Kiers \email{h.a.l.kiers@rug.nl}, Paolo Giordani \email{Paolo.Giordani@uniroma1.it}}
+\author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \examples{
 data(meaudret)
 ## The labels are in the data array

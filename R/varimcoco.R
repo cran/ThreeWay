@@ -276,4 +276,3 @@ out$f2c=f2c
 out$func=func
 return(out)	
 }
-

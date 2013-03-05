@@ -22,4 +22,3 @@ if (mode==3){
 }
 return(Y)
 }
-
