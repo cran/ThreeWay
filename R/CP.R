@@ -469,17 +469,6 @@ while (check==0){
 	}
 }
 
-# Procedure for analyzing a very large three-way array X.
-# To reduce computational cost, we follow the procedure by Harshman & Kiers (1997)
-# to reduce the size for the array for the computational part
-n_original=n 		
-if (n>m*p){
-	R=qr.R(qr(Xprep), complete = FALSE)
-	Q=qr.Q(qr(Xprep), complete = FALSE)
-	Xprep=R
-	n=m*p
-}
-
 A=matrix(rnorm(n*r),ncol=r)
 B=matrix(rnorm(m*r),ncol=r)
 C=matrix(rnorm(p*r),ncol=r)	
@@ -546,12 +535,6 @@ if (r>1){
 H=matrix(0,r,r^2)       # superidentity 3-way array
 for (ii in 1:r){
 	H[ii,(ii-1)*r+ii]=1
-}
-
-# resize the A-mode if n>m*p
-if (n_original>m*p){
-	A=Q%*%A
-	n=n_original
 }
 
 cat(" ",fill=TRUE)

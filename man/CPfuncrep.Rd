@@ -38,11 +38,9 @@
 }
 \note{
 The loss function to be minimized is \eqn{sum(k)|| X(k) - A D(k) B' ||^2}, where \eqn{D(k)} is a diagonal matrix holding the \code{k}-th row of \code{C}.
-\cr For data with \code{n>>mp} the procedure in Kiers and Harshman (1997) has been implemented. 
-\code{CPfuncrep} is the same as \code{CPfunc} except that all printings are suppressed. Thus, \code{CPfuncrep} can be helpful for simulation experiments.
+\cr \code{CPfuncrep} is the same as \code{CPfunc} except that all printings are suppressed. Thus, \code{CPfuncrep} can be helpful for simulation experiments.
 }
-\references{H.A.L. Kiers, R.A. Harshman (1997). Relating two proposed methods for speedup of algorithms for fitting two- and three-way principal component and related multilinear models. \emph{Chemometrics and Intelligent Laboratory Systems 36:31--40}. 
-\cr R.A. Harshman (1970) Foundations of the Parafac procedure: models and conditions for an \sQuote{explanatory} multi-mode factor analysis. \emph{UCLA Working Papers in Phonetics 16:1--84}.}
+\references{R.A. Harshman (1970) Foundations of the Parafac procedure: models and conditions for an \sQuote{explanatory} multi-mode factor analysis. \emph{UCLA Working Papers in Phonetics 16:1--84}.}
 \author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{CP}}, \code{\link{CPfunc}}}
 \examples{

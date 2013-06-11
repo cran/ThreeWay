@@ -58,25 +58,12 @@ for (i in 1:n_boot){                # +n
         Xprepb=norm3(Xprepb,n_bootsample,m,p,3)
     }
 
-	n_original=n_bootsample		
-	if (n_bootsample>m*p){
-	   R=qr.R(qr(Xprepb), complete = FALSE)
-	   Q=qr.Q(qr(Xprepb), complete = FALSE)
-	   Xprepb=R
-	   n_bootsample=m*p
-	   Astart=matrix(rnorm(n_bootsample*r),ncol=r)
-    }
-
     # Parafac, use two runs: rational start and sample solution start
     start=2 # start from sample solution
     CPmatBC=CPfuncrep(Xprepb,n_bootsample,m,p,r,ort1,ort2,ort3,start,conv,maxit,A,B,C)
     start=0 # rational start
     CPmatBC2=CPfuncrep(Xprepb,n_bootsample,m,p,r,ort1,ort2,ort3,start,conv,maxit,A,B,C)
 
-	if (n_original>m*p){
-       n_bootsample=n_original
-    }
-	
     if (CPmatBC2$f<CPmatBC$f){
         fb=CPmatBC2$f
         Ab=CPmatBC2$A

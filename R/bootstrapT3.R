@@ -61,30 +61,12 @@ for (i in 1:n_boot){
         Xprepb=norm3(Xprepb,n_bootsample,m,p,3)
     }
 
-	# Procedure for analyzing a very large three-way array X.
-    # To reduce computational cost, we follow the procedure by Harshman & Kiers (1997)
-    # to reduce the size for the array for the computational part
-
-	n_original=n_bootsample		
-    if (n_bootsample>m*p){
-	   R=qr.R(qr(Xprepb), complete = FALSE)
-	   Q=qr.Q(qr(Xprepb), complete = FALSE)
-	   Xprepb=R
-	   n_bootsample=m*p
-	   Astart=matrix(rnorm(n_bootsample*r1),ncol=r1)
-    }
-	
-	
     # Tucker3, use two runs: rational start and sample solution start
     start=2                                   # start from sample solution
     T3ABKrep=T3funcrep(Xprepb,n_bootsample,m,p,r1,r2,r3,start,conv,Astart,B,C,G)
     start=0                                   # rational start
     T3ABKrep2=T3funcrep(Xprepb,n_bootsample,m,p,r1,r2,r3,start,conv,Astart,B,C,G)
 	# resize the A-mode if n>m*p
-
-	if (n_original>m*p){
-      n_bootsample=n_original
-    }
 
     if (T3ABKrep2$f<T3ABKrep$f){
         fb=T3ABKrep2$f

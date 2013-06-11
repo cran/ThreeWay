@@ -405,17 +405,6 @@ while (check==0){
 	}
 }
 
-# Procedure for analyzing a very large three-way array X.
-# To reduce computational cost, we follow the procedure by Harshman & Kiers (1997)
-# to reduce the size for the array for the computational part
-n_original=n	
-if (n>m*p){
-	R=qr.R(qr(Xprep), complete = FALSE)
-	Q=qr.Q(qr(Xprep), complete = FALSE)
-	Xprep=R
-	n=m*p
-}
-
 cat(paste("Run no.",1,sep=" "),fill=TRUE)
 Tuck3=T3func(Xprep,n,m,p,r1,r2,r3,0,conv)		
 A=Tuck3$A
@@ -472,11 +461,6 @@ cat(" ",fill=TRUE)
 cat(paste("Tucker3 analysis with ",r1,"x",r2,"x",r3," components, gave a fit of ",round(fp,digits=2), "%"),fill=TRUE) 
 
 out=list()
-# resize the A-mode if n>m*p
-if (n_original>m*p){
-	A=Q%*%A
-	n=n_original
-}
 
 # Prepare plotting matrices
 cat(" ",fill=TRUE)

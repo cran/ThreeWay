@@ -38,11 +38,9 @@ Alternating Least Squares algorithm for the minimization of the Tucker3 loss fun
 } 
 \note{
 The loss function to be minimized is \eqn{||X_A - A G_A kron(C',B')||^2} where \eqn{X_A} and \eqn{G_A} denote the matricized (frontal slices) data array and core array, respectively, and kron stands for the Kronecker product.
-\cr For data with \code{n>>mp} the procedure in Kiers and Harshman (1997) has been implemented. 
-\cr\code{T3funcrep} is the same as \code{T3func} except that all printings are suppressed. Thus, \code{T3funcrep} can be helpful for simulation experiments.
+\cr \code{T3funcrep} is the same as \code{T3func} except that all printings are suppressed. Thus, \code{T3funcrep} can be helpful for simulation experiments.
 }
-\references{H.A.L. Kiers, R.A. Harshman (1997). Relating two proposed methods for speedup of algorithms for fitting two- and three-way principal component and related multilinear models. \emph{Chemometrics and Intelligent Laboratory Systems 36:31--40}. 
-\cr H.A.L. Kiers, P.M. Kroonenberg, J.M.F. ten Berge (1992). An efficient algorithm for TUCKALS3 on data with large numbers of observation units. \emph{Psychometrika 57:415--422}. 
+\references{H.A.L. Kiers, P.M. Kroonenberg, J.M.F. ten Berge (1992). An efficient algorithm for TUCKALS3 on data with large numbers of observation units. \emph{Psychometrika 57:415--422}. 
 \cr P.M. Kroonenberg and J. de Leeuw (1980). Principal component analysis of three-mode data by means of alternating least squares algorithms. \emph{Psychometrika 45:69--97}.}
 \author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{T3}}, \code{\link{T3func}}}
