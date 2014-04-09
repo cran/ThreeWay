@@ -35,8 +35,9 @@
  \item{labc}{Vector of length \code{P} containing the labels of the \code{C}-mode entities}
  \item{Xprep}{Matrix of order (\code{n} \code{x} \code{mp}) containing the matricized array (frontal slices) after preprocessing used for the analysis}
 } 
-\references{L.R Tucker (1966). Some mathematical notes on three-mode factor analysis. \emph{Psychometrika 31:279--311}.
-\cr P.M. Kroonenberg (2008). \emph{Applied Multiway Data Analysis}. Wiley, New Jersey.}
+\references{P. Giordani, H.A.L. Kiers, M.A. Del Ferraro (2014). Three-way component analysis using the R package ThreeWay. \emph{Journal of Statistical Software 57(7):1--23}. \url{http://www.jstatsoft.org/v57/i07/}.
+\cr P.M. Kroonenberg (2008). \emph{Applied Multiway Data Analysis}. Wiley, New Jersey.
+\cr L.R Tucker (1966). Some mathematical notes on three-mode factor analysis. \emph{Psychometrika 31:279--311}.}
 \author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{CP}},\code{\link{T3}},\code{\link{T1}}}
 \examples{

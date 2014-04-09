@@ -152,6 +152,7 @@ if (sum(Y^2)<1e-10){
 	B2=NULL
 	C1=NULL
 	C2=NULL
+    ev=NULL
 } else{
 	cat("If you want to standardize 'variables', type '1':",fill=TRUE)
 	cc=scan("",n=1)
@@ -171,6 +172,7 @@ if (sum(Y^2)<1e-10){
 	}
 }
 
+if (sum(Y^2)>1e-10){
 SVD=svd(Y)		 # P for rows  Q for columns
 ev=SVD$d^2
 rr=length(ev)
@@ -305,6 +307,7 @@ if (identical(C1,NULL)==FALSE){
 	rownames(C2)=labc
 	colnames(C1)=labComp
 	colnames(C2)=labComp
+}
 }
 
 out=list()

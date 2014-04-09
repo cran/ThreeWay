@@ -51,6 +51,7 @@
  \item{Xprep}{Matrix of order (\code{n} \code{x} \code{mp}) containing the matricized array (frontal slices) after preprocessing used for the analysis}
 } 
 \references{J.D. Carroll and J.J. Chang (1970). Analysis of individual differences in multidimensional scaling via an \emph{N}-way generalization of 'Eckart-Young' decomposition. \emph{Psychometrika 35:283--319}. 
+\cr P. Giordani, H.A.L. Kiers, M.A. Del Ferraro (2014). Three-way component analysis using the R package ThreeWay. \emph{Journal of Statistical Software 57(7):1--23}. \url{http://www.jstatsoft.org/v57/i07/}.
 \cr R.A. Harshman (1970). Foundations of the Parafac procedure: models and conditions for an 'explanatory' multi-mode factor analysis. \emph{UCLA Working Papers in Phonetics 16:1--84}.
 \cr P.M. Kroonenberg (2008). \emph{Applied Multiway Data Analysis}. Wiley, New Jersey.}
 \author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}

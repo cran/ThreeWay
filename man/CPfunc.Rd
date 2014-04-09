@@ -16,7 +16,7 @@
   \item{ort1}{Type of constraints on \code{A} (1 for no constraints, 2 for orthogonality constraints, 3 for zero correlations constraints)}
   \item{ort2}{Type of constraints on \code{B} (1 for no constraints, 2 for orthogonality constraints, 3 for zero correlations constraints)}
   \item{ort3}{Type of constraints on \code{C} (1 for no constraints, 2 for orthogonality constraints, 3 for zero correlations constraints)}
-  \item{start}{Starting point (0 for starting point of the algorithm from SVD' s, 1 for random starting point (orthonormalized component matrices), 2 for user specified components}
+  \item{start}{Starting point (0 for starting point of the algorithm from SVD's, 1 for random starting point (orthonormalized component matrices), 2 for user specified components}
   \item{conv}{Convergence criterion}
   \item{maxit}{Maximal number of iterations}
   \item{A}{Optional (necessary if start=2) starting value for \code{A}}
@@ -40,11 +40,7 @@
 The loss function to be minimized is \eqn{sum(k)|| X(k) - A D(k) B' ||^2}, where \eqn{D(k)} is a diagonal matrix holding the \code{k}-th row of \code{C}.
 \cr \code{CPfunc} is the same as \code{CPfuncrep} except that all printings are available.
 }
-\references{
-R.A. Harshman (1970) Foundations of the Parafac procedure: models and conditions for an 
-\sQuote{explanatory} multi-mode factor analysis. 
-\emph{UCLA Working Papers in Phonetics 16:1--84}.
-}
+\references{R.A. Harshman (1970). Foundations of the Parafac procedure: models and conditions for an \sQuote{explanatory} multi-mode factor analysis. \emph{UCLA Working Papers in Phonetics 16:1--84}.}
 \author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{CP}}, \code{\link{CPfuncrep}}}
 \examples{

@@ -65,9 +65,6 @@ while (i < (tmp4-1)){
 		fp2=eff_n*out_best_best[i,1]+eff_m*out_best_best[i,2]+eff_p*out_best_best[i,3]+out_best_best[i,1]*out_best_best[i,2]*out_best_best[i,3]-out_best_best[i,1]^2-out_best_best[i,2]^2-out_best_best[i,3]^2
 		fp3=eff_n*out_best_best[(i+1),1]+eff_m*out_best_best[(i+1),2]+eff_p*out_best_best[(i+1),3]+out_best_best[(i+1),1]*out_best_best[(i+1),2]*out_best_best[(i+1),3]-out_best_best[(i+1),1]^2-out_best_best[(i+1),2]^2-out_best_best[(i+1),3]^2
 	}	
-#    fp1=out_best_best[(i-1),5]		#controllare
-#    fp2=out_best_best[i,5]			#controllare
-#    fp3=out_best_best[(i+1),5]		#controllare
 	if (LineCon(f1,f2,f3,fp1,fp2,fp3)==0){
 		out_best_best=rbind(out_best_best[1:(i-1),],out_best_best[(i+1):tmp4,])
 		tmp4=nrow(out_best_best)
@@ -75,7 +72,6 @@ while (i < (tmp4-1)){
     }
 	i=i+1
 }
-print(out_best_best)
 # Step 7 Compute St
 tmp4=nrow(out_best_best)
 st=cbind(vector(mode="numeric",length=tmp4))
@@ -83,9 +79,6 @@ for (i in 2:(tmp4-1)){
     fi=out_best_best[i,4]
     fi_p=out_best_best[(i-1),4]
     fi_n=out_best_best[(i+1),4]
-#    fpi=out_best_best[i,5]				#controllare
-#    fpi_p=out_best_best[(i-1),5]		#controllare
-#    fpi_n=out_best_best[(i+1),5]		#controllare
 	fpi_p=eff_n*out_best_best[(i-1),1]+eff_m*out_best_best[(i-1),2]+eff_p*out_best_best[(i-1),3]+out_best_best[(i-1),1]*out_best_best[(i-1),2]*out_best_best[(i-1),3]-out_best_best[(i-1),1]^2-out_best_best[(i-1),2]^2-out_best_best[(i-1),3]^2
 	fpi=eff_n*out_best_best[i,1]+eff_m*out_best_best[i,2]+eff_p*out_best_best[i,3]+out_best_best[i,1]*out_best_best[i,2]*out_best_best[i,3]-out_best_best[i,1]^2-out_best_best[i,2]^2-out_best_best[i,3]^2
 	fpi_n=eff_n*out_best_best[(i+1),1]+eff_m*out_best_best[(i+1),2]+eff_p*out_best_best[(i+1),3]+out_best_best[(i+1),1]*out_best_best[(i+1),2]*out_best_best[(i+1),3]-out_best_best[(i+1),1]^2-out_best_best[(i+1),2]^2-out_best_best[(i+1),3]^2
@@ -105,8 +98,14 @@ st_max = out_st[imax,]
 # Output
 
 # Table 
-cat("Table: Goodness-of-fit values (%), Total number of components tnc, and Scree test",fill=TRUE)
+if (model==1){
+cat("Table: Goodness-of-fit values (%) and Scree test values st",fill=TRUE)
+cat("of the solutions on the higher boundary of the convex hull",fill=TRUE)
+} else{
+cat("Table: Goodness-of-fit values (%), Total number of components tnc and Scree test",fill=TRUE)
 cat("values st of the solutions on the higher boundary of the convex hull",fill=TRUE)
+}
+
 #CANDECOMP/PARAFAC
 if (model==1){
 	tab=matrix(0,nrow=tmp4,ncol=2)
@@ -121,7 +120,7 @@ if (model==1){
 			tab[i,2]=noquote(paste("  ",round(out_st[i,4],digits=4),"    ",round(out_st[i,6],digits=2)))
 		}
 		if (i==imax){
-			suggestion=noquote(paste("The hull neuristic indicates the selection of the T3 model of complexity (",out_st[i,1],")"))
+			suggestion=noquote(paste("The hull heuristic indicates the selection of the CP model of complexity (",out_st[i,1],")"))
 		}
 	}
 	rownames(tab)=rep("CP",length=tmp4)
@@ -143,7 +142,7 @@ if (model==2){
 			tab[i,2]=noquote(paste("  ",round(out_st[i,4],digits=4),"    ",out_st[i,5],"    ",round(out_st[i,6],digits=2)))
 		}
 		if (i==imax){
-			suggestion=noquote(paste("The hull neuristic indicates the selection of the T3 model of complexity (",out_st[i,1],out_st[i,2],out_st[i,3],")"))
+			suggestion=noquote(paste("The hull heuristic indicates the selection of the T3 model of complexity (",out_st[i,1],out_st[i,2],out_st[i,3],")"))
 		}
 	}
 	rownames(tab)=rep("T3",length=tmp4)
@@ -165,7 +164,7 @@ if (model==3){
 			tab[i,2]=noquote(paste("  ",round(out_st[i,4],digits=4),"    ",out_st[i,5],"    ",round(out_st[i,6],digits=2)))
 		}
 		if (i==imax){
-			suggestion=noquote(paste("The hull neuristic indicates the selection of the T2 model of complexity (",out_st[i,1],out_st[i,2],out_st[i,3],")"))
+			suggestion=noquote(paste("The hull heuristic indicates the selection of the T2 model of complexity (",out_st[i,1],out_st[i,2],out_st[i,3],")"))
 		}
 	}
 	rownames(tab)=rep("T2",length=tmp4)
@@ -187,7 +186,7 @@ if (model==4){
 			tab[i,2]=noquote(paste("  ",round(out_st[i,4],digits=4),"    ",out_st[i,5],"    ",round(out_st[i,6],digits=2)))
 		}
 		if (i==imax){
-			suggestion=noquote(paste("The hull neuristic indicates the selection of the T1 model of complexity (",out_st[i,1],out_st[i,2],out_st[i,3],")"))
+			suggestion=noquote(paste("The hull heuristic indicates the selection of the T1 model of complexity (",out_st[i,1],out_st[i,2],out_st[i,3],")"))
 		}
 	}
 	rownames(tab)=rep("T1",length=tmp4)

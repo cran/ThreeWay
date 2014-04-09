@@ -41,7 +41,7 @@ Alternating Least Squares algorithm for the minimization of the Tucker2 loss fun
 The loss function to be minimized is \eqn{||X_A - A G_A kron(C',B')||^2} where \eqn{X_A} and \eqn{G_A} denote the matricized (frontal slices) data array and core array, respectively, and kron stands for the Kronecker product.
 \cr \code{T2funcrep} is the same as \code{T2func} except that all printings are suppressed. Thus, \code{T2funcrep} can be helpful for simulation experiments.
 }
-\references{H.A.L. Kiers, P.M. Kroonenberg, J.M.F. ten Berge (1992). An efficient algorithm for TUCKALS3 on data with large numbers of observation units. \emph{Psychometrika 57:415--422}. 
+\references{H.A.L. Kiers, P.M. Kroonenberg \& J.M.F. ten Berge (1992). An efficient algorithm for TUCKALS3 on data with large numbers of observation units. \emph{Psychometrika 57:415--422}. 
 \cr P.M. Kroonenberg and J. de Leeuw (1980). Principal component analysis of three-mode data by means of alternating least squares algorithms. \emph{Psychometrika 45:69--97}.}
 \author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{T2}}, \code{\link{T2func}}}

@@ -15,8 +15,8 @@
  \code{A} is usually the first and fourth columns of the output of \code{\link{DimSelector}}.
  \cr The number of effective parameters  in a Candecomp/Parafac analysis is discussed in Weesie and Van Houwelingen (1983).
 }
-\references{ E. Ceulemans and H.A.L. Kiers (2006). Selecting among three-mode principal component models of different types and complexities: A numerical convex hull based method. \emph{British Journal of Mathematical and Statistical Psychology 59:133--150}. 
-\cr J. Weesie and H. Van Houwelingen (1983). \emph{GEPCAM users' manual (first draft)}. Utrecht, The Netherlands: Institute of Mathematical Statistics, State University of Utrecht.}
+\references{E. Ceulemans \& H.A.L. Kiers (2006). Selecting among three-mode principal component models of different types and complexities: A numerical convex hull based method. \emph{British Journal of Mathematical and Statistical Psychology 59:133--150}. 
+\cr J. Weesie \& H. Van Houwelingen (1983). \emph{GEPCAM users' manual (first draft)}. Utrecht, The Netherlands: Institute of Mathematical Statistics, State University of Utrecht.}
 \author{Maria Antonietta Del Ferraro \email{mariaantonietta.delferraro@yahoo.it} \cr Henk A.L. Kiers \email{h.a.l.kiers@rug.nl} \cr Paolo Giordani \email{paolo.giordani@uniroma1.it}}
 \seealso{\code{\link{CP}}, \code{\link{DimSelector}}}
 \examples{
